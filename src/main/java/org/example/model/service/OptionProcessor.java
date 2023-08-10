@@ -40,7 +40,7 @@ public class OptionProcessor {
 
       case EXCEPTION -> {
         ServerConfig.AUTH_CODE.set("");
-        System.out.println("\nFailed to authenticate!");
+        System.out.println("\nFailed to authenticate! ");
       }
 
       case CORRECT -> {
